@@ -1,0 +1,840 @@
+# Russian translations for 3Svarog project
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-13 18:53+0000\n"
+"PO-Revision-Date: 2026-05-10 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+# =========================
+# DATENSCHUTZ
+# =========================
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:8
+msgid "Datenschutzerklärung"
+msgstr "Политика конфиденциальности"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:10
+msgid "I. Name und Anschrift der Verantwortlichen"
+msgstr "I. Имя и адрес ответственного лица"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:13
+msgid ""
+"Die Verantwortliche im Sinne der Datenschutz-Grundverordnung (DSGVO) sowie "
+"sonstiger datenschutzrechtlicher Bestimmungen ist:"
+msgstr ""
+"Ответственным лицом в соответствии с Общим регламентом по защите данных "
+"(GDPR) и другими законами о защите данных является:"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:18
+msgid "Adresse:"
+msgstr "Адрес:"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:19
+msgid "Deutschland"
+msgstr "Германия"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:20
+msgid "Tel.:"
+msgstr "Тел.:"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:26
+msgid ""
+"Für Fragen zur Verarbeitung personenbezogener Daten können Sie sich an "
+"folgende E-Mail-Adresse wenden:"
+msgstr ""
+"По вопросам обработки персональных данных вы можете обратиться по следующему "
+"адресу электронной почты:"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:30
+msgid "II. Allgemeines zur Datenverarbeitung"
+msgstr "II. Общая информация об обработке данных"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:32
+msgid "1. Umfang der Verarbeitung personenbezogener Daten"
+msgstr "1. Объем обработки персональных данных"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:35
+msgid ""
+"Wir verarbeiten personenbezogene Daten unserer Nutzer grundsätzlich nur, "
+"soweit dies zur Bereitstellung einer funktionsfähigen Website sowie unserer "
+"Inhalte und Leistungen erforderlich ist. Eine Verarbeitung erfolgt "
+"regelmäßig nur nach Einwilligung der betroffenen Person. Ausnahmen gelten "
+"nur, sofern eine Verarbeitung durch gesetzliche Vorschriften gestattet ist."
+msgstr ""
+"Мы обрабатываем персональные данные пользователей только в той мере, в какой "
+"это необходимо для предоставления функционального веб-сайта и наших услуг. "
+"Обработка обычно осуществляется только с согласия пользователя. Исключения "
+"применяются только в случаях, предусмотренных законом."
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:38
+msgid "2. Rechtsgrundlage der Verarbeitung"
+msgstr "2. Правовая основа обработки"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:40
+msgid "Die Verarbeitung personenbezogener Daten erfolgt auf Grundlage von:"
+msgstr "Обработка персональных данных осуществляется на основании:"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:43
+msgid "Art. 6 Abs. 1 lit. a DSGVO (Einwilligung)"
+msgstr "Ст. 6 п. 1 лит. a GDPR (согласие)"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:44
+msgid "Art. 6 Abs. 1 lit. b DSGVO (Vertrag / vorvertragliche Maßnahmen)"
+msgstr "Ст. 6 п. 1 лит. b GDPR (договор / преддоговорные меры)"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:45
+msgid "Art. 6 Abs. 1 lit. c DSGVO (rechtliche Verpflichtung)"
+msgstr "Ст. 6 п. 1 лит. c GDPR (юридическое обязательство)"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:46
+msgid "Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse)"
+msgstr "Ст. 6 п. 1 лит. f GDPR (законный интерес)"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:49
+msgid "3. Datenlöschung und Speicherdauer"
+msgstr "3. Удаление и срок хранения данных"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:52
+msgid ""
+"Personenbezogene Daten werden gelöscht oder gesperrt, sobald der Zweck der "
+"Speicherung entfällt, sofern keine gesetzlichen Aufbewahrungspflichten "
+"bestehen."
+msgstr ""
+"Персональные данные удаляются или блокируются, как только цель их хранения "
+"исчезает, если нет юридических обязательств по хранению."
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:55
+msgid "III. Bereitstellung der Website und Logfiles"
+msgstr ""
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:57
+#| msgid "2. Rechtsgrundlage der Verarbeitung"
+msgid "1. Beschreibung und Umfang der Datenverarbeitung"
+msgstr "2. Правовая основа обработки"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:60
+msgid ""
+"Bei jedem Aufruf der Website erfasst das System automatisch Daten und "
+"Informationen vom Endgerät des Nutzers. Erfasst werden insbesondere:"
+msgstr ""
+"При каждом посещении веб-сайта система автоматически собирает данные и "
+"информацию с устройства пользователя. В частности, собираются:"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:64
+msgid "Browsertyp und Version"
+msgstr "Тип и версия браузера"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:65
+msgid "Betriebssystem"
+msgstr "Операционная система"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:66
+msgid "Internet-Service-Provider"
+msgstr "Интернет-провайдер"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:67
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:132
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:162
+#| msgid "Adresse"
+msgid "IP-Adresse"
+msgstr "Адрес"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:68
+msgid "Datum und Uhrzeit des Zugriffs"
+msgstr "Дата и время доступа"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:69
+msgid "zuvor besuchte Website"
+msgstr "ранее посещённый веб-сайт"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:70
+msgid "aufgerufene Unterseiten"
+msgstr "посещённые подстраницы"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:73
+msgid "Die Speicherung erfolgt in Logfiles."
+msgstr "Сохранение осуществляется в лог-файлах."
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:75
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:105
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:136
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:166
+#| msgid "2. Rechtsgrundlage der Verarbeitung"
+msgid "2. Rechtsgrundlage"
+msgstr "2. Правовая основа обработки"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:77
+#| msgid "Art. 6 Abs. 1 lit. a DSGVO (Einwilligung)"
+msgid "Art. 6 Abs. 1 lit. f DSGVO."
+msgstr "Ст. 6 п. 1 лит. a GDPR (согласие)"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:79
+#| msgid "2. Rechtsgrundlage der Verarbeitung"
+msgid "3. Zweck der Verarbeitung"
+msgstr "2. Правовая основа обработки"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:82
+msgid ""
+"Die Verarbeitung erfolgt zur Sicherstellung des Betriebs, zur "
+"Systemsicherheit sowie zur technischen Optimierung der Website."
+msgstr ""
+"Обработка осуществляется для обеспечения работы системы, безопасности "
+"системы, а также для технической оптимизации веб-сайта."
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:85
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:144
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:178
+msgid "4. Speicherdauer"
+msgstr "4. Срок хранения"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:88
+msgid ""
+"Die Daten werden gelöscht, sobald sie nicht mehr erforderlich sind, "
+"spätestens nach 180 Tagen."
+msgstr ""
+"Данные удаляются, как только они становятся больше не нужны, не позднее чем "
+"через 180 дней."
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:91
+msgid "5. Widerspruchsmöglichkeit"
+msgstr "5. Возможность возражения"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:94
+msgid ""
+"Die Erfassung ist für den Betrieb der Website zwingend erforderlich. Ein "
+"Widerspruch ist nicht möglich."
+msgstr ""
+"Сбор данных является строго необходимым для работы веб-сайта. Возражение "
+"невозможно."
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:97
+msgid "IV. Cookies"
+msgstr "IV. Cookies"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:99
+msgid "1. Beschreibung"
+msgstr "1. Описание"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:102
+msgid ""
+"Unsere Website verwendet Cookies zur technischen Funktionalität. Cookies "
+"sind kleine Textdateien, die im Browser gespeichert werden."
+msgstr ""
+"Наш веб-сайт использует cookies для технической функциональности. Cookies — "
+"это небольшие текстовые файлы, которые сохраняются в браузере."
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:108
+#| msgid "Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse)"
+msgid "Art. 6 Abs. 1 lit. f DSGVO (notwendige Cookies)"
+msgstr "Ст. 6 п. 1 лит. f GDPR (законный интерес)"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:109
+#| msgid "Art. 6 Abs. 1 lit. a DSGVO (Einwilligung)"
+msgid "Art. 6 Abs. 1 lit. a DSGVO (optionale Cookies, sofern eingesetzt)"
+msgstr "Ст. 6 п. 1 лит. a GDPR (согласие)"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:112
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:140
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:174
+msgid "3. Zweck"
+msgstr "3. Цель"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:115
+msgid ""
+"Cookies dienen der technischen Funktionalität und Benutzerfreundlichkeit der "
+"Website."
+msgstr ""
+"Cookies используются для технической функциональности и удобства "
+"использования веб-сайта."
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:118
+msgid "4. Verwaltung und Löschung"
+msgstr "4. Управление и удаление"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:121
+msgid ""
+"Nutzer können Cookies jederzeit über die Browsereinstellungen löschen oder "
+"deaktivieren. Bei Deaktivierung kann die Funktionalität eingeschränkt sein."
+msgstr ""
+"Пользователи могут в любое время удалить или отключить cookies через "
+"настройки браузера. При отключении функциональность может быть ограничена."
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:124
+msgid "V. Newsletter"
+msgstr "V. Рассылка"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:126
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:156
+#| msgid "II. Allgemeines zur Datenverarbeitung"
+msgid "1. Datenverarbeitung"
+msgstr "II. Общая информация об обработке данных"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:128
+msgid "Bei Anmeldung zum Newsletter werden folgende Daten verarbeitet:"
+msgstr "При подписке на рассылку обрабатываются следующие данные:"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:131
+#| msgid "Adresse"
+msgid "E-Mail-Adresse"
+msgstr "Адрес электронной почты"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:133
+msgid "Datum und Uhrzeit der Anmeldung"
+msgstr "Дата и время регистрации"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:138
+#| msgid "Art. 6 Abs. 1 lit. a DSGVO (Einwilligung)"
+msgid "Art. 6 Abs. 1 lit. a DSGVO."
+msgstr "Ст. 6 п. 1 лит. a GDPR (согласие)"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:142
+msgid "Versand des Newsletters und Vermeidung von Missbrauch."
+msgstr "Отправка рассылки и предотвращение злоупотреблений."
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:146
+msgid "Die Daten werden bis zur Abmeldung gespeichert."
+msgstr "Данные хранятся до момента отписки."
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:148
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:184
+msgid "5. Widerruf"
+msgstr "5. Отзыв"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:151
+msgid "Eine Abmeldung ist jederzeit über den Link im Newsletter möglich."
+msgstr "Отписка возможна в любое время по ссылке в рассылке."
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:154
+msgid "VI. Kontaktformular und E-Mail-Kontakt"
+msgstr "VI. Контактная форма и связь по электронной почте"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:158
+msgid "Bei Kontaktaufnahme werden folgende Daten verarbeitet:"
+msgstr "При обращении обрабатываются следующие данные:"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:161
+msgid "Inhalte der Anfrage"
+msgstr "Содержание запроса"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:163
+msgid "Datum und Uhrzeit"
+msgstr "Дата и время"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:169
+#| msgid "Art. 6 Abs. 1 lit. a DSGVO (Einwilligung)"
+msgid "Art. 6 Abs. 1 lit. a DSGVO"
+msgstr "Ст. 6 п. 1 лит. a GDPR (согласие)"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:170
+#| msgid "Art. 6 Abs. 1 lit. c DSGVO (rechtliche Verpflichtung)"
+msgid "Art. 6 Abs. 1 lit. b DSGVO (bei Vertragsbezug)"
+msgstr "Ст. 6 п. 1 лит. c GDPR (юридическое обязательство)"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:171
+#| msgid "Art. 6 Abs. 1 lit. a DSGVO (Einwilligung)"
+msgid "Art. 6 Abs. 1 lit. f DSGVO"
+msgstr "Ст. 6 п. 1 лит. a GDPR (согласие)"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:176
+msgid "Bearbeitung der Kontaktanfrage."
+msgstr "Обработка контактного запроса."
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:181
+#| msgid ""
+#| "Personenbezogene Daten werden gelöscht oder gesperrt, sobald der Zweck "
+#| "der Speicherung entfällt, sofern keine gesetzlichen "
+#| "Aufbewahrungspflichten bestehen."
+msgid ""
+"Die Daten werden gelöscht, sobald die Anfrage abschließend bearbeitet ist, "
+"sofern keine gesetzlichen Pflichten bestehen."
+msgstr ""
+"Персональные данные удаляются или блокируются, как только цель их хранения "
+"исчезает, если нет юридических обязательств по хранению."
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:187
+msgid "Ein Widerruf der Einwilligung ist jederzeit möglich per E-Mail an:"
+msgstr "Отзыв согласия возможен в любое время по электронной почте на:"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:191
+msgid "VII. Rechte der betroffenen Personen"
+msgstr "VII. Права субъектов данных"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:193
+msgid "Betroffene Personen haben folgende Rechte:"
+msgstr "Субъекты данных имеют следующие права:"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:196
+msgid "Auskunft (Art. 15 DSGVO)"
+msgstr "Информация (ст. 15 GDPR)"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:197
+msgid "Berichtigung (Art. 16 DSGVO)"
+msgstr "Исправление (ст. 16 GDPR)"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:198
+msgid "Löschung (Art. 17 DSGVO)"
+msgstr "Удаление (ст. 17 GDPR)"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:199
+msgid "Einschränkung der Verarbeitung (Art. 18 DSGVO)"
+msgstr "Ограничение обработки (ст. 18 GDPR)"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:200
+msgid "Datenübertragbarkeit (Art. 20 DSGVO)"
+msgstr "Переносимость данных (ст. 20 GDPR)"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:201
+msgid "Widerspruch (Art. 21 DSGVO)"
+msgstr "Возражение (ст. 21 GDPR)"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:202
+msgid "Widerruf erteilter Einwilligungen (Art. 7 Abs. 3 DSGVO)"
+msgstr "Отзыв ранее предоставленного согласия (ст. 7 п. 3 GDPR)"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:203
+msgid "Beschwerde bei einer Aufsichtsbehörde (Art. 77 DSGVO)"
+msgstr "Жалоба в надзорный орган (ст. 77 GDPR)"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:206
+msgid "VIII. Widerspruchsrecht"
+msgstr "VIII. Право на возражение"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:209
+msgid ""
+"Nutzer können der Verarbeitung personenbezogener Daten jederzeit "
+"widersprechen, soweit diese auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO "
+"erfolgt."
+msgstr ""
+"Пользователи могут в любое время возразить против обработки персональных "
+"данных, если она осуществляется на основании ст. 6 п. 1 лит. f GDPR."
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:212
+msgid "IX. Aktualität und Änderung dieser Datenschutzerklärung"
+msgstr "IX. Актуальность и изменение данной политики конфиденциальности"
+
+#: WEB_3Svarog/templates/web3Svarog/datenschutz.html:215
+msgid ""
+"Diese Datenschutzerklärung kann jederzeit angepasst werden, wenn sich "
+"rechtliche oder technische Änderungen ergeben."
+msgstr ""
+"Настоящая политика конфиденциальности может быть изменена в любое время при "
+"возникновении правовых или технических изменений."
+
+# =========================
+# IMPRESSUM
+# =========================
+#: WEB_3Svarog/templates/web3Svarog/impressum.html:8
+#: WEB_3Svarog/templates/web3Svarog/layout.html:98
+msgid "Impressum"
+msgstr "Юридическая информация"
+
+#: WEB_3Svarog/templates/web3Svarog/impressum.html:10
+msgid "Angaben gemäß § 5 TMG"
+msgstr "Информация согласно § 5 TMG"
+
+#: WEB_3Svarog/templates/web3Svarog/impressum.html:19
+#: WEB_3Svarog/templates/web3Svarog/kontakt.html:8
+#: WEB_3Svarog/templates/web3Svarog/layout.html:82
+#: WEB_3Svarog/templates/web3Svarog/layout.html:93
+msgid "Kontakt"
+msgstr "Контакты"
+
+#: WEB_3Svarog/templates/web3Svarog/impressum.html:22
+#: WEB_3Svarog/templates/web3Svarog/kontakt.html:25
+msgid "Telefon"
+msgstr "Телефон"
+
+#: WEB_3Svarog/templates/web3Svarog/impressum.html:26
+msgid "Vertreten durch"
+msgstr "Представлено"
+
+#: WEB_3Svarog/templates/web3Svarog/impressum.html:29
+msgid "Geschäftsführer"
+msgstr "Директор"
+
+#: WEB_3Svarog/templates/web3Svarog/impressum.html:32
+msgid "Registereintrag"
+msgstr "Регистрация"
+
+#: WEB_3Svarog/templates/web3Svarog/impressum.html:35
+msgid "Eintragung im Handelsregister"
+msgstr "Запись в торговом реестре"
+
+#: WEB_3Svarog/templates/web3Svarog/impressum.html:36
+msgid "Registergericht"
+msgstr "Регистрационный суд"
+
+#: WEB_3Svarog/templates/web3Svarog/impressum.html:37
+msgid "Registernummer"
+msgstr "Регистрационный номер"
+
+#: WEB_3Svarog/templates/web3Svarog/impressum.html:40
+msgid "Umsatzsteuer-ID"
+msgstr "НДС номер"
+
+#: WEB_3Svarog/templates/web3Svarog/impressum.html:43
+msgid "Umsatzsteuer-Identifikationsnummer gemäß §27a"
+msgstr "Идентификационный номер НДС согласно §27a"
+
+#: WEB_3Svarog/templates/web3Svarog/impressum.html:46
+msgid "Haftungsausschluss"
+msgstr "Отказ от ответственности"
+
+#: WEB_3Svarog/templates/web3Svarog/impressum.html:49
+msgid "Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt."
+msgstr "Содержание нашего сайта было создано с максимальной тщательностью."
+
+# =========================
+# INDEX
+# =========================
+#: WEB_3Svarog/templates/web3Svarog/index.html:19
+msgid "Qualität, Erfahrung und Präzision seit 2013."
+msgstr "Качество, опыт и точность с 2013 года."
+
+#: WEB_3Svarog/templates/web3Svarog/index.html:23
+msgid "Kontakt aufnehmen"
+msgstr "Связаться с нами"
+
+#: WEB_3Svarog/templates/web3Svarog/index.html:35
+msgid "Über uns"
+msgstr "О нас"
+
+#: WEB_3Svarog/templates/web3Svarog/index.html:38
+msgid ""
+"3Svarog Bauunternehmen ist seit 2013 im Bau- und Renovierungsbereich tätig. "
+"Unser Weg begann mit Fassaden- und Stuckarbeiten an Gebäuden und entwickelte "
+"sich Schritt für Schritt zu einem modernen Bauunternehmen."
+msgstr ""
+"Строительная компания 3Svarog работает в сфере строительства и ремонта с "
+"2013 года. Наш путь начался с фасадных и штукатурных работ на зданиях и "
+"постепенно превратился в современную строительную компанию."
+
+#: WEB_3Svarog/templates/web3Svarog/index.html:42
+msgid ""
+"Heute realisieren wir Renovierungen, vollständige Hausbauprojekte sowie "
+"Rekonstruktionen historischer und moderner Gebäude."
+msgstr ""
+"Сегодня мы выполняем ремонты, полное строительство домов, а также "
+"реконструкцию исторических и современных зданий."
+
+#: WEB_3Svarog/templates/web3Svarog/index.html:46
+msgid ""
+"Zu unseren Projekten gehören private Wohnhäuser, gewerbliche Gebäude sowie "
+"öffentliche Aufträge für Städte und Gemeinden."
+msgstr ""
+"В наши проекты входят частные жилые дома, коммерческие здания, а также "
+"государственные заказы для городов и муниципалитетов."
+
+#: WEB_3Svarog/templates/web3Svarog/index.html:50
+msgid ""
+"Einige unserer Arbeiten umfassen die Restaurierung und Rekonstruktion "
+"bedeutender historischer Objekte, darunter auch Projekte im Zusammenhang mit "
+"UNESCO-geschützten Gebäuden."
+msgstr ""
+"Некоторые наши работы включают реставрацию и реконструкцию значимых "
+"исторических объектов, включая проекты, связанные с объектами под охраной "
+"ЮНЕСКО."
+
+#: WEB_3Svarog/templates/web3Svarog/index.html:62
+#: WEB_3Svarog/templates/web3Svarog/leistungen.html:16
+msgid "Unsere Leistungen"
+msgstr "Наши услуги"
+
+#: WEB_3Svarog/templates/web3Svarog/index.html:67
+#: WEB_3Svarog/templates/web3Svarog/leistungen.html:129
+#: WEB_3Svarog/templates/web3Svarog/projekte.html:16
+msgid "Renovierung"
+msgstr "Ремонт"
+
+#: WEB_3Svarog/templates/web3Svarog/index.html:70
+msgid ""
+"Professionelle Innen- und Außensanierungen für Wohn- und Gewerbeobjekte."
+msgstr ""
+"Профессиональный внутренний и внешний ремонт жилых и коммерческих объектов."
+
+#: WEB_3Svarog/templates/web3Svarog/index.html:75
+#: WEB_3Svarog/templates/web3Svarog/leistungen.html:134
+#: WEB_3Svarog/templates/web3Svarog/projekte.html:38
+msgid "Hausbau"
+msgstr "Строительство домов"
+
+#: WEB_3Svarog/templates/web3Svarog/index.html:78
+msgid "Komplette Planung und Umsetzung moderner Bauprojekte."
+msgstr "Полное проектирование и реализация современных строительных проектов."
+
+#: WEB_3Svarog/templates/web3Svarog/index.html:83
+#: WEB_3Svarog/templates/web3Svarog/leistungen.html:139
+#: WEB_3Svarog/templates/web3Svarog/projekte.html:61
+msgid "Rekonstruktion"
+msgstr "Реконструкция"
+
+#: WEB_3Svarog/templates/web3Svarog/index.html:86
+msgid "Wiederaufbau und Restaurierung historischer und moderner Gebäude."
+msgstr "Восстановление и реставрация исторических и современных зданий."
+
+#: WEB_3Svarog/templates/web3Svarog/index.html:91
+#: WEB_3Svarog/templates/web3Svarog/leistungen.html:144
+#: WEB_3Svarog/templates/web3Svarog/projekte.html:84
+msgid "Öffentliche Projekte"
+msgstr "Государственные проекты"
+
+#: WEB_3Svarog/templates/web3Svarog/index.html:94
+msgid ""
+"Zusammenarbeit mit Städten und Gemeinden bei Sanierungs- und Bauprojekten."
+msgstr ""
+"Сотрудничество с городами и муниципалитетами в проектах по строительству и "
+"реконструкции."
+
+#: WEB_3Svarog/templates/web3Svarog/index.html:109
+msgid "Mehr als 10 Jahre Erfahrung"
+msgstr "Более 10 лет опыта"
+
+#: WEB_3Svarog/templates/web3Svarog/index.html:112
+msgid ""
+"Vertrauen, Qualität und langfristige Zusammenarbeit stehen bei uns an erster "
+"Stelle."
+msgstr ""
+"Доверие, качество и долгосрочное сотрудничество для нас на первом месте."
+
+# =========================
+# KONTAKT
+# =========================
+#: WEB_3Svarog/templates/web3Svarog/kontakt.html:19
+msgid "Wir freuen uns auf Ihre Anfrage. Sie können uns jederzeit kontaktieren."
+msgstr ""
+"Мы будем рады вашему обращению. Вы можете связаться с нами в любое время."
+
+#: WEB_3Svarog/templates/web3Svarog/kontakt.html:22
+msgid "Kontaktinformationen"
+msgstr "Контактная информация"
+
+#: WEB_3Svarog/templates/web3Svarog/kontakt.html:27
+msgid "Adresse"
+msgstr "Адрес"
+
+#: WEB_3Svarog/templates/web3Svarog/kontakt.html:30
+msgid "Schreiben Sie uns"
+msgstr "Напишите нам"
+
+#: WEB_3Svarog/templates/web3Svarog/kontakt.html:36
+msgid "Name"
+msgstr "Имя"
+
+#: WEB_3Svarog/templates/web3Svarog/kontakt.html:39
+msgid "E-Mail"
+msgstr "Электронная почта"
+
+#: WEB_3Svarog/templates/web3Svarog/kontakt.html:42
+msgid "Nachricht"
+msgstr "Сообщение"
+
+#: WEB_3Svarog/templates/web3Svarog/kontakt.html:46
+msgid "Absenden"
+msgstr "Отправить"
+
+# =========================
+# LAYOUT / UI
+# =========================
+#: WEB_3Svarog/templates/web3Svarog/layout.html:43
+msgid "Deutsch"
+msgstr "Немецкий"
+
+#: WEB_3Svarog/templates/web3Svarog/layout.html:44
+msgid "English"
+msgstr "Английский"
+
+#: WEB_3Svarog/templates/web3Svarog/layout.html:45
+msgid "Russisch"
+msgstr "Русский"
+
+#: WEB_3Svarog/templates/web3Svarog/layout.html:78
+msgid "Qualität im Bau seit 2013"
+msgstr "Качество в строительстве с 2013 года"
+
+#: WEB_3Svarog/templates/web3Svarog/layout.html:83
+#| msgid "Tel.:"
+msgid "Tel"
+msgstr "Тел.:"
+
+#: WEB_3Svarog/templates/web3Svarog/layout.html:85
+msgid "Berlin, Deutschland"
+msgstr "Берлин, Германия"
+
+#: WEB_3Svarog/templates/web3Svarog/layout.html:89
+msgid "Navigation"
+msgstr "Навигация"
+
+#: WEB_3Svarog/templates/web3Svarog/layout.html:90
+msgid "Start"
+msgstr "Главная"
+
+#: WEB_3Svarog/templates/web3Svarog/layout.html:91
+msgid "Leistungen"
+msgstr "Услуги"
+
+#: WEB_3Svarog/templates/web3Svarog/layout.html:92
+msgid "Projekte"
+msgstr "Проекты"
+
+#: WEB_3Svarog/templates/web3Svarog/layout.html:97
+msgid "Rechtliches"
+msgstr "Правовая информация"
+
+#: WEB_3Svarog/templates/web3Svarog/layout.html:99
+msgid "Datenschutz"
+msgstr "Политика конфиденциальности"
+
+#: WEB_3Svarog/templates/web3Svarog/layout.html:105
+msgid "Alle Rechte vorbehalten."
+msgstr "Все права защищены."
+
+#: WEB_3Svarog/templates/web3Svarog/leistungen.html:19
+msgid ""
+"Zwei Geschäftsführer. Ein Unternehmen. Ein gemeinsamer Anspruch: Qualität."
+msgstr "Two managing directors. One company. One shared standard: quality."
+
+#: WEB_3Svarog/templates/web3Svarog/leistungen.html:31
+msgid "Wer wir sind"
+msgstr "Who we are"
+
+#: WEB_3Svarog/templates/web3Svarog/leistungen.html:34
+msgid ""
+"Hinter 3Svarog stehen zwei Geschäftsführer, die das Unternehmen mit "
+"unterschiedlichen Stärken führen und gemeinsam weiterentwickeln."
+msgstr ""
+"Behind 3Svarog are two managing directors who lead the company with "
+"different strengths and develop it together."
+
+#: WEB_3Svarog/templates/web3Svarog/leistungen.html:46
+#| msgid "Geschäftsführer"
+msgid "Geschäftsführer – Hauptleitung"
+msgstr "Managing Director – General Management"
+
+#: WEB_3Svarog/templates/web3Svarog/leistungen.html:52
+msgid "Leitung & Organisation"
+msgstr "Management & Organization"
+
+#: WEB_3Svarog/templates/web3Svarog/leistungen.html:55
+msgid ""
+"Unser Hauptgeschäftsführer ist verantwortlich für die operative Leitung, "
+"Planung und Koordination aller Bauprojekte."
+msgstr ""
+"Our managing director is responsible for operational management, planning, "
+"and coordination of all construction projects."
+
+#: WEB_3Svarog/templates/web3Svarog/leistungen.html:59
+msgid ""
+"Sein Weg begann im Handwerk und entwickelte sich über viele Jahre zu einer "
+"führenden Rolle im Bauwesen."
+msgstr ""
+"His career began in craftsmanship and developed over many years into a "
+"leading role in the construction industry."
+
+#: WEB_3Svarog/templates/web3Svarog/leistungen.html:63
+msgid ""
+"Er steht für Struktur, Qualität und präzise Umsetzung auf allen Baustellen."
+msgstr ""
+"He stands for structure, quality, and precise execution on all construction "
+"sites."
+
+#: WEB_3Svarog/templates/web3Svarog/leistungen.html:85
+msgid "Geschäftsführer – Projektentwicklung"
+msgstr "Managing Director – Project Development"
+
+#: WEB_3Svarog/templates/web3Svarog/leistungen.html:97
+msgid "Innovation & Projekte"
+msgstr "Innovation & Projects"
+
+#: WEB_3Svarog/templates/web3Svarog/leistungen.html:100
+msgid ""
+"Der zweite Geschäftsführer ist verantwortlich für Projektentwicklung, "
+"Kundenkontakt und moderne Baukonzepte."
+msgstr ""
+"The second managing director is responsible for project development, client "
+"communication, and modern construction concepts."
+
+#: WEB_3Svarog/templates/web3Svarog/leistungen.html:104
+msgid ""
+"Mit einem starken Fokus auf Effizienz und moderne Lösungen bringt er neue "
+"Ideen in jedes Projekt ein."
+msgstr ""
+"With a strong focus on efficiency and modern solutions, he brings new ideas "
+"into every project."
+
+#: WEB_3Svarog/templates/web3Svarog/leistungen.html:108
+msgid ""
+"Gemeinsam sorgen beide Geschäftsführer für eine starke Balance zwischen "
+"Tradition und Innovation."
+msgstr ""
+"Together, both managing directors ensure a strong balance between tradition "
+"and innovation."
+
+#: WEB_3Svarog/templates/web3Svarog/leistungen.html:124
+#| msgid "Unsere Leistungen"
+msgid "Unsere Leistungen im Überblick"
+msgstr "Наши услуги"
+
+#: WEB_3Svarog/templates/web3Svarog/leistungen.html:130
+#| msgid ""
+#| "Professionelle Innen- und Außensanierungen für Wohn- und Gewerbeobjekte."
+msgid "Innen- und Außenrenovierungen für private und gewerbliche Gebäude."
+msgstr ""
+"Профессиональный внутренний и внешний ремонт жилых и коммерческих объектов."
+
+#: WEB_3Svarog/templates/web3Svarog/leistungen.html:135
+#| msgid "Komplette Planung und Umsetzung moderner Bauprojekte."
+msgid "Komplette Bauplanung und Umsetzung moderner Wohnhäuser."
+msgstr "Полное проектирование и реализация современных строительных проектов."
+
+#: WEB_3Svarog/templates/web3Svarog/leistungen.html:140
+#| msgid "Wiederaufbau und Restaurierung historischer und moderner Gebäude."
+msgid "Restaurierung und Wiederaufbau historischer Gebäude."
+msgstr "Восстановление и реставрация исторических и современных зданий."
+
+#: WEB_3Svarog/templates/web3Svarog/leistungen.html:145
+#| msgid ""
+#| "Zusammenarbeit mit Städten und Gemeinden bei Sanierungs- und Bauprojekten."
+msgid "Zusammenarbeit mit Städten und Gemeinden bei Bauprojekten."
+msgstr ""
+"Сотрудничество с городами и муниципалитетами в проектах по строительству и "
+"реконструкции."
+
+#: WEB_3Svarog/templates/web3Svarog/projekte.html:10
+#| msgid "Projekte"
+msgid "Unsere Projekte"
+msgstr "Наши проекты"
+
+#: WEB_3Svarog/templates/web3Svarog/projekte.html:11
+msgid "Ein Überblick über unsere Bauleistungen in verschiedenen Bereichen."
+msgstr "Обзор наших строительных услуг в различных сферах."
+
+#: WEB_3Svarog/templates/web3Svarog/projekte.html:17
+msgid ""
+"Modernisierung und Sanierung bestehender Gebäude mit höchster Präzision."
+msgstr ""
+"Модернизация и реконструкция существующих зданий с максимальной точностью."
+
+#: WEB_3Svarog/templates/web3Svarog/projekte.html:39
+msgid ""
+"Individuelle Neubauten von Einfamilienhäusern bis zu größeren Wohnprojekten."
+msgstr ""
+"Индивидуальное строительство — от частных домов до крупных жилых проектов."
+
+#: WEB_3Svarog/templates/web3Svarog/projekte.html:62
+msgid ""
+"Wiederherstellung und strukturelle Erneuerung von bestehenden Bauwerken."
+msgstr ""
+"Восстановление и структурное обновление существующих сооружений."
+
+#: WEB_3Svarog/templates/web3Svarog/projekte.html:85
+msgid "Großprojekte für Städte, Gemeinden und öffentliche Auftraggeber."
+msgstr ""
+"Крупные проекты для городов, муниципалитетов и государственных заказчиков."

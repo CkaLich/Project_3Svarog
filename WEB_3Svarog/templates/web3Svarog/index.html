@@ -1,0 +1,126 @@
+{% extends "web3Svarog/layout.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block main %}
+
+<!-- HERO SECTION -->
+<section class="hero">
+
+    <div class="hero-overlay"></div>
+
+    <img src="{% static 'img/3Svarog alle zusammen + 2F.png' %}" alt="Svarog Team" class="hero-image">
+
+    <div class="hero-content">
+
+        <h1>3Svarog Bauunternehmen</h1>
+
+        <p class="hero-subtitle">
+            {% trans "Qualität, Erfahrung und Präzision seit 2013." %}
+        </p>
+
+        <a href="{% url 'kontakt' %}" class="hero-btn">
+            {% trans "Kontakt aufnehmen" %}
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ABOUT -->
+<section class="home-section">
+
+    <div class="section-container">
+
+        <h2>{% trans "Über uns" %}</h2>
+
+        <p>
+            {% trans "3Svarog Bauunternehmen ist seit 2013 im Bau- und Renovierungsbereich tätig. Unser Weg begann mit Fassaden- und Stuckarbeiten an Gebäuden und entwickelte sich Schritt für Schritt zu einem modernen Bauunternehmen." %}
+        </p>
+
+        <p>
+            {% trans "Heute realisieren wir Renovierungen, vollständige Hausbauprojekte sowie Rekonstruktionen historischer und moderner Gebäude." %}
+        </p>
+
+        <p>
+            {% trans "Zu unseren Projekten gehören private Wohnhäuser, gewerbliche Gebäude sowie öffentliche Aufträge für Städte und Gemeinden." %}
+        </p>
+
+        <p>
+            {% trans "Einige unserer Arbeiten umfassen die Restaurierung und Rekonstruktion bedeutender historischer Objekte, darunter auch Projekte im Zusammenhang mit UNESCO-geschützten Gebäuden." %}
+        </p>
+
+    </div>
+
+</section>
+
+<!-- SERVICES -->
+<section class="home-section dark-section">
+
+    <div class="section-container">
+
+        <h2>{% trans "Unsere Leistungen" %}</h2>
+
+        <div class="services-grid">
+            <a href="{% url 'projekte' %}#renovierung" class="service-box-link">
+                <div class="service-box">
+                    <h3>{% trans "Renovierung" %}</h3>
+
+                    <p>
+                        {% trans "Professionelle Innen- und Außensanierungen für Wohn- und Gewerbeobjekte." %}
+                    </p>
+                </div>
+            </a>
+
+            <a href="{% url 'projekte' %}#hausbau" class="service-box-link">
+                <div class="service-box">
+                    <h3>{% trans "Hausbau" %}</h3>
+
+                    <p>
+                        {% trans "Komplette Planung und Umsetzung moderner Bauprojekte." %}
+                    </p>
+                </div>
+            </a>
+
+            <a href="{% url 'projekte' %}#rekonstruktion" class="service-box-link">
+                <div class="service-box">
+                    <h3>{% trans "Rekonstruktion" %}</h3>
+
+                    <p>
+                        {% trans "Wiederaufbau und Restaurierung historischer und moderner Gebäude." %}
+                    </p>
+                </div>
+            </a>
+
+            <a href="{% url 'projekte' %}#oeffentliche-projekte" class="service-box-link">
+                <div class="service-box">
+                    <h3>{% trans "Öffentliche Projekte" %}</h3>
+
+                    <p>
+                        {% trans "Zusammenarbeit mit Städten und Gemeinden bei Sanierungs- und Bauprojekten." %}
+                    </p>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- EXPERIENCE -->
+<section class="home-section">
+
+    <div class="section-container center">
+
+        <h2>{% trans "Mehr als 10 Jahre Erfahrung" %}</h2>
+
+        <p class="experience-text">
+            {% trans "Vertrauen, Qualität und langfristige Zusammenarbeit stehen bei uns an erster Stelle." %}
+        </p>
+
+    </div>
+
+</section>
+
+{% endblock %}

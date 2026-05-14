@@ -1,0 +1,162 @@
+{% extends "web3Svarog/layout.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block main %}
+
+<!-- HERO -->
+<section class="hero leistungen-hero">
+
+    <div class="hero-overlay"></div>
+
+    <img src="{% static 'img/3Svarog SSO.png' %}" alt="Leistungen" class="hero-image">
+
+    <div class="hero-content">
+
+        <h1>{% trans "Unsere Leistungen" %}</h1>
+
+        <p class="hero-subtitle">
+            {% trans "Zwei Geschäftsführer. Ein Unternehmen. Ein gemeinsamer Anspruch: Qualität." %}
+        </p>
+
+    </div>
+
+</section>
+
+<!-- INTRO -->
+<section class="home-section">
+
+    <div class="section-container center">
+
+        <h2>{% trans "Wer wir sind" %}</h2>
+
+        <p>
+            {% trans "Hinter 3Svarog stehen zwei Geschäftsführer, die das Unternehmen mit unterschiedlichen Stärken führen und gemeinsam weiterentwickeln." %}
+        </p>
+
+    </div>
+
+</section>
+
+<!-- BOSS 1 (BROTHER) -->
+<section class="home-section dark-section">
+
+    <div class="section-container">
+
+        <h2>{% trans "Geschäftsführer – Hauptleitung" %}</h2>
+
+        <div class="leistungen-split">
+
+            <div class="text">
+
+                <h3>{% trans "Leitung & Organisation" %}</h3>
+
+                <p>
+                    {% trans "Unser Hauptgeschäftsführer ist verantwortlich für die operative Leitung, Planung und Koordination aller Bauprojekte." %}
+                </p>
+
+                <p>
+                    {% trans "Sein Weg begann im Handwerk und entwickelte sich über viele Jahre zu einer führenden Rolle im Bauwesen." %}
+                </p>
+
+                <p>
+                    {% trans "Er steht für Struktur, Qualität und präzise Umsetzung auf allen Baustellen." %}
+                </p>
+
+            </div>
+
+            <div class="image">
+
+                <img src="{% static 'img/3Svarog SD.png' %}" alt="Geschäftsführer 1">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- BOSS 2 (YOU) -->
+<section class="home-section">
+
+    <div class="section-container">
+
+        <h2>{% trans "Geschäftsführer – Projektentwicklung" %}</h2>
+
+        <div class="leistungen-split reverse">
+
+            <div class="image">
+
+                <img src="{% static 'img/3Svarog S.png' %}" alt="Geschäftsführer 2">
+
+            </div>
+
+            <div class="text">
+
+                <h3>{% trans "Innovation & Projekte" %}</h3>
+
+                <p>
+                    {% trans "Der zweite Geschäftsführer ist verantwortlich für Projektentwicklung, Kundenkontakt und moderne Baukonzepte." %}
+                </p>
+
+                <p>
+                    {% trans "Mit einem starken Fokus auf Effizienz und moderne Lösungen bringt er neue Ideen in jedes Projekt ein." %}
+                </p>
+
+                <p>
+                    {% trans "Gemeinsam sorgen beide Geschäftsführer für eine starke Balance zwischen Tradition und Innovation." %}
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- SERVICES GRID -->
+<section class="home-section dark-section">
+
+    <div class="section-container">
+
+        <h2>{% trans "Unsere Leistungen im Überblick" %}</h2>
+
+        <div class="leistungen-services-grid">
+
+            <a href="{% url 'projekte' %}#renovierung" class="service-box-link">
+                <div class="leistungen-service-box">
+                    <h3>{% trans "Renovierung" %}</h3>
+                    <p>{% trans "Innen- und Außenrenovierungen für private und gewerbliche Gebäude." %}</p>
+                </div>
+            </a>
+
+            <a href="{% url 'projekte' %}#hausbau" class="service-box-link">
+                <div class="leistungen-service-box">
+                    <h3>{% trans "Hausbau" %}</h3>
+                    <p>{% trans "Komplette Bauplanung und Umsetzung moderner Wohnhäuser." %}</p>
+                </div>
+            </a>
+
+            <a href="{% url 'projekte' %}#rekonstruktion" class="service-box-link">
+                <div class="leistungen-service-box">
+                    <h3>{% trans "Rekonstruktion" %}</h3>
+                    <p>{% trans "Restaurierung und Wiederaufbau historischer Gebäude." %}</p>
+                </div>
+            </a>
+
+            <a href="{% url 'projekte' %}#oeffentliche-projekte" class="service-box-link">
+                <div class="leistungen-service-box">
+                    <h3>{% trans "Öffentliche Projekte" %}</h3>
+                    <p>{% trans "Zusammenarbeit mit Städten und Gemeinden bei Bauprojekten." %}</p>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+{% endblock %}

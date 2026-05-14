@@ -1,0 +1,126 @@
+{% load static %}
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+
+<!DOCTYPE html>
+<html lang="{{ LANGUAGE_CODE }}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{% static 'web3Svarog/styles.css' %}?v={% now 'U' %}">
+
+    <title>3Svarog</title>
+</head>
+
+<body>
+
+<header class="site-header">
+
+    <!-- LOGO -->
+    <div class="logo">
+        <a href="{% url 'index' %}">
+            <img src="{% static 'img/logo1.21.png' %}" alt="3Svarog Logo">
+        </a>
+    </div>
+
+    <div class="project-note">
+        {% trans "CS50 Web Programming Abschlussprojekt – Demo Website" %}
+    </div>
+
+    <div class="right-side">
+
+        <!-- LANGUAGE SWITCH -->
+        <div class="lang-wrapper">
+
+            <button type="button" id="langBtn" class="lang-btn">
+                <span id="currentFlag">
+                    {% if LANGUAGE_CODE == "en" %}🇬🇧
+                    {% elif LANGUAGE_CODE == "ru" %}🇷🇺
+                    {% else %}🇩🇪
+                    {% endif %}
+                </span>
+            </button>
+
+            <div id="langDropdown" class="lang-dropdown hidden">
+                <div data-lang="de">🇩🇪 {% trans "Deutsch" %}</div>
+                <div data-lang="en">🇬🇧 {% trans "English" %}</div>
+                <div data-lang="ru">🇷🇺 {% trans "Russisch" %}</div>
+            </div>
+
+            <form id="langForm" action="{% url 'set_language' %}" method="post" style="display:none;">
+                {% csrf_token %}
+                <input type="hidden" name="language" id="languageInput">
+                <input type="hidden" name="next" value="{{ request.path }}">
+            </form>
+
+        </div>
+
+        <!-- MENU -->
+        <button type="button" class="menu-btn" id="menuBtn">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+
+    </div>
+
+</header>
+
+        <nav id="mainMenu" class="main-menu hidden">
+            <a href="{% url 'index' %}">{% trans "Home" %}</a>
+            <a href="{% url 'leistungen' %}">{% trans "Leistungen" %}</a>
+            <a href="{% url 'projekte' %}">{% trans "Projekte" %}</a>
+            <a href="{% url 'kontakt' %}">{% trans "Kontakt" %}</a>
+            <a href="{% url 'impressum' %}">{% trans "Impressum" %}</a><br>
+            <a href="{% url 'datenschutz' %}">{% trans "Datenschutz" %}</a>
+        </nav>
+
+<main>
+    {% block main %}
+    {% endblock %}
+</main>
+
+<footer class="site-footer">
+
+    <div class="footer-container">
+
+        <div class="footer-box">
+            <h3>3Svarog Bau</h3>
+            <p>{% trans "Qualität im Bau seit 2013" %}</p>
+        </div>
+
+        <div class="footer-box">
+            <h4>{% trans "Kontakt" %}</h4>
+            <p>{% trans "Tel" %}: +49 000 000000</p>
+            <p>Email: info@firma.de</p>
+            <p>{% trans "Berlin, Deutschland" %}</p>
+        </div>
+
+        <div class="footer-box">
+            <h4>{% trans "Navigation" %}</h4>
+            <a href="{% url 'index' %}">{% trans "Start" %}</a><br>
+            <a href="{% url 'leistungen' %}">{% trans "Leistungen" %}</a><br>
+            <a href="{% url 'projekte' %}">{% trans "Projekte" %}</a><br>
+            <a href="{% url 'kontakt' %}">{% trans "Kontakt" %}</a>
+        </div>
+
+        <div class="footer-box">
+            <h4>{% trans "Rechtliches" %}</h4>
+            <a href="{% url 'impressum' %}">{% trans "Impressum" %}</a><br>
+            <a href="{% url 'datenschutz' %}">{% trans "Datenschutz" %}</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 3Svarog Bau. {% trans "Alle Rechte vorbehalten." %}
+    </div>
+
+</footer>
+
+<script src="{% static 'web3Svarog/funcs.js' %}?v={% now 'U' %}"></script>
+
+</body>
+</html>

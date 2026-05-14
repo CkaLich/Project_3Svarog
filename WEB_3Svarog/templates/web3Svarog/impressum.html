@@ -1,0 +1,54 @@
+{% extends "web3Svarog/layout.html" %}
+{% load i18n %}
+
+{% block main %}
+
+<section class="legal-page">
+
+    <h1>{% trans "Impressum" %}</h1>
+
+    <h2>{% trans "Angaben gemäß § 5 TMG" %}</h2>
+
+    <p>
+        3Svarog Bau GmbH<br>
+        Musterstraße 1<br>
+        00000 Berlin<br>
+        Deutschland
+    </p>
+
+    <h2>{% trans "Kontakt" %}</h2>
+
+    <p>
+        {% trans "Telefon" %}: +49 000 000000<br>
+        E-Mail: info@firma.de
+    </p>
+
+    <h2>{% trans "Vertreten durch" %}</h2>
+
+    <p>
+        {% trans "Geschäftsführer" %}: Max Mustermann
+    </p>
+
+    <h2>{% trans "Registereintrag" %}</h2>
+
+    <p>
+        {% trans "Eintragung im Handelsregister" %}<br>
+        {% trans "Registergericht" %}: Amtsgericht Berlin<br>
+        {% trans "Registernummer" %}: HRB 000000
+    </p>
+
+    <h2>{% trans "Umsatzsteuer-ID" %}</h2>
+
+    <p>
+        {% trans "Umsatzsteuer-Identifikationsnummer gemäß §27a" %}: DE123456789
+    </p>
+
+    <h2>{% trans "Haftungsausschluss" %}</h2>
+
+    <p>
+        {% trans "Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt." %}
+    </p>
+
+</section>
+
+{% endblock %}
